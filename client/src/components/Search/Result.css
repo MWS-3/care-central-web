@@ -1,0 +1,34 @@
+.result-distance {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.result-location {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.result-name {
+  flex: 1 1;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  overflow: hidden;
+  padding-left: 20px;
+  text-overflow: ellipsis;
+}
+
+.result-rating {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.search-result {
+  background-color: #cccccc;
+  display: flex;
+  flex-direction: row;
+  min-height: 60px;
+  padding: 16px;
+}

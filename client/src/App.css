@@ -30,3 +30,16 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgba(0, 0, 0, 0.84);
+  font-size: 20px;
+  line-height: 1.4;
+}
