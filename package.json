@@ -23,5 +23,7 @@
     "url": "https://github.com/samakintunde37/care-central-web/issues"
   },
   "homepage": "https://github.com/samakintunde37/care-central-web#readme",
-  "dependencies": {}
+  "dependencies": {
+    "react-router-dom": "^4.3.1"
+  }
 }
