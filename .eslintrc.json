@@ -50,7 +50,7 @@
     "func-style": 0,
     "guard-for-in": 2,
     "handle-callback-err": 2,
-    "jsx-quotes": [2, "prefer-single"],
+    "jsx-quotes": [2, "prefer-double"],
     "key-spacing": [
       2,
       {
