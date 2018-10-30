@@ -11,7 +11,6 @@ const Results = () => {
         <Result />
         <Result />
         <Result />
-        <Result />
       </div>
       <div className="search-map-tab">
       <Map />
