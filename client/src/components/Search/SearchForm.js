@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./SearchForm.css";
 
 class SearchForm extends Component {
   state = {
@@ -36,17 +37,20 @@ class SearchForm extends Component {
     const {data} = this.state;
 
     return (
+      <div className="search-container">
           <form onSubmit={this.onSubmit}>
             <input 
+            className="search-input"
             type="text"
             id="query"
             name="query"
-            placeholder="Gabon Hospital"
+            placeholder="Search"
             value={data.query}
             onChange={this.onChange}
             />
-            <button>Search</button>
+            {/* <button>Search</button> */}
           </form>
+      </div>
     );
   }
 }
