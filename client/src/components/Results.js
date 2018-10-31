@@ -1,5 +1,5 @@
 import React from 'react';
-import Result from './Search/Result';
+import Result from './Search/result';
 import Map from './Search/Map';
 import "./Results.css";
 
