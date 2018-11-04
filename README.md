@@ -1,4 +1,5 @@
 # care-central-web
+https://travis-ci.org/MWS-3/care-central-web.svg?branch=master
 
 A web app that helps people find hospitals/health centers closest to them.
 
