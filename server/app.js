@@ -5,6 +5,7 @@ const app = express();
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
+require('events').EventEmitter.prototype._maxListeners = 100;
 
 const PORT = process.env.PORT || 5000;
 

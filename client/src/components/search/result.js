@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Result.css";
+import "../Results.css";
 
 
 const Result = () => {
@@ -16,3 +16,4 @@ const Result = () => {
 }
 
 export default Result;
+

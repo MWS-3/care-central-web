@@ -39,6 +39,13 @@ router.post('/signup', [
 
 ], user_controller.signup);
 
+router.post('/upload', [
+    check('userN').trim().escape(),
+    check('email').isEmail().normalizeEmail()
+
+], user_controller.upload);
+
+
 router.post('/login', [
     check('userN').trim().escape(),
     check('email').isEmail().normalizeEmail(),
