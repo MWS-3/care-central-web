@@ -1,0 +1,39 @@
+.search-container {
+  padding-top: 64px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 24px;
+  transition: transform 250ms ease-in-out;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  color: #575756;
+  background-color: #fff;
+  background-image: url(/img/ic_search_black_24px.svg);
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: 95% center;
+  border-radius: 50px;
+  border: 1px solid #575756;
+  transition: all 250ms ease-in-out;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.search-input::placeholder {
+  color: color(#575756 a(0.8));
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.search-input:hover,
+.search-input:focus {
+  padding: 12px 10px;
+  outline: 0;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #575756;
+  border-radius: 0;
+  background-position: 100% center;
+}
