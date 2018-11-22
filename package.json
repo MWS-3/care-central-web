@@ -4,7 +4,9 @@
     "description": "An app that helps you locate the nearest healthcare facilities to you.",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "client": "npm start --prefix client",
+        "dev": "concurrently \"npm run start\" \"npm run client\"",
+        "start": "npm start --prefix server"
     },
     "repository": {
         "type": "git",
@@ -24,6 +26,6 @@
     },
     "homepage": "https://github.com/jiggabyte/care-central-web#readme",
     "dependencies": {
-        "react-router-dom": "^4.3.1"
+        "concurrently": "^4.1.0"
     }
 }
