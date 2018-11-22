@@ -1,31 +1,32 @@
 {
-    "name": "care-central-web",
-    "version": "1.0.0",
-    "description": "An app that helps you locate the nearest healthcare facilities to you.",
-    "main": "index.js",
-    "scripts": {
-        "client": "npm start --prefix client",
-        "dev": "concurrently \"npm run start\" \"npm run client\"",
-        "start": "npm start --prefix server"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/MW-3/care-central-web.git"
-    },
-    "keywords": [
-        "express",
-        "react",
-        "javascript",
-        "health",
-        "open-source"
-    ],
-    "author": "MWS-3",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/jiggabyte/care-central-web/issues"
-    },
-    "homepage": "https://github.com/jiggabyte/care-central-web#readme",
-    "dependencies": {
-        "concurrently": "^4.1.0"
-    }
+  "name": "care-central-web",
+  "version": "1.0.0",
+  "description": "An app that helps you locate the nearest healthcare facilities to you.",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run start\" \"npm run client\"",
+    "start": "npm start --prefix server",
+    "test": "mocha server/test --exit --require babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MW-3/care-central-web.git"
+  },
+  "keywords": [
+    "express",
+    "react",
+    "javascript",
+    "health",
+    "open-source"
+  ],
+  "author": "MWS-3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jiggabyte/care-central-web/issues"
+  },
+  "homepage": "https://github.com/jiggabyte/care-central-web#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
 }
